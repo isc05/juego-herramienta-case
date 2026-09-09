@@ -14,6 +14,9 @@
     --color-success: #4caf50;
     --color-error: #ef233c;
 
+    --color-streak: #ff9f1c;
+    --color-streak-glow: rgba(255, 159, 28, 0.4);
+
     --font-family-main: 'Segoe UI', system-ui, -apple-system, sans-serif;
     
     --border-radius-sm: 0.5rem;
@@ -22,7 +25,9 @@
     
     --shadow-sm: 0 4px 6px rgba(0,0,0,0.05);
     --shadow-md: 0 10px 20px rgba(0,0,0,0.08);
+    --shadow-streak: 0 0 15px var(--color-streak-glow);
     
     --transition-fast: 0.2s ease;
     --transition-normal: 0.3s ease;
+    --transition-slow: 0.8s ease-in-out;
 }

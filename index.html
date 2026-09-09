@@ -13,21 +13,31 @@
             <div class="card">
                 <h1>Clasificación de Herramientas CASE</h1>
                 <p>Demuestra tus conocimientos sobre la ingeniería de software y las herramientas CASE.</p>
+                <div class="high-score-container">
+                    <span>Máxima Puntuación Histórica: </span>
+                    <span id="best-score-start" class="best-score">0</span>
+                </div>
                 <button id="btn-start" class="btn primary">Iniciar Juego</button>
             </div>
         </div>
 
         <div id="game-screen" class="screen">
-            <div class="card">
+            <div id="game-card" class="card">
                 <header class="game-header">
                     <span id="question-counter" class="badge">Pregunta 1 / 6</span>
-                    <span id="score-display" class="badge score">Puntaje: 0</span>
+                    <div class="score-container">
+                        <span id="multiplier-display" class="badge multiplier hidden">x1.0</span>
+                        <span id="score-display" class="badge score">0 pts</span>
+                    </div>
                 </header>
                 <div class="progress-bar">
                     <div id="progress-fill" class="progress-fill"></div>
                 </div>
-                <h2 id="question-text" class="question-text"></h2>
-                <div id="options-container" class="options-grid"></div>
+                
+                <div id="question-container" class="question-container">
+                    <h2 id="question-text" class="question-text"></h2>
+                    <div id="options-container" class="options-grid"></div>
+                </div>
             </div>
         </div>
 
@@ -36,6 +46,10 @@
                 <h2>Juego Terminado</h2>
                 <p>Tu puntaje final es:</p>
                 <div id="final-score" class="final-score">0</div>
+                <div class="high-score-container">
+                    <span>Mejor Puntuación: </span>
+                    <span id="best-score-end" class="best-score">0</span>
+                </div>
                 <p id="feedback-text" class="feedback-text"></p>
                 <button id="btn-restart" class="btn primary">Jugar de Nuevo</button>
             </div>
