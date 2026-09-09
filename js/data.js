@@ -30,8 +30,28 @@ export const caseToolsQuestions = [
         correctAnswer: 1
     },
     {
-        question: "Un ejemplo representativo de una herramienta I-CASE (Integrated CASE) es:",
-        options: ["Postman", "Figma", "Enterprise Architect", "Jenkins"],
-        correctAnswer: 2
+        question: "¿Cuál de los siguientes software es un ejemplo representativo de una herramienta Upper CASE?",
+        options: ["Enterprise Architect", "Selenium", "Eclipse", "Doxygen"],
+        correctAnswer: 0
+    },
+    {
+        question: "¿Cuál de las siguientes opciones es un ejemplo de plataforma Integrated CASE (I-CASE)?",
+        options: ["OutSystems", "Postman", "Swagger", "ClickUp"],
+        correctAnswer: 0
+    },
+    {
+        question: "Si un equipo necesita extraer comentarios del código fuente para generar automáticamente la documentación del proyecto,¿qué herramienta CASE debe usar?",
+        options: ["Doxygen", "Lucichart", "IDA Pro", "Asana"],
+        correctAnswer: 0
+    },
+    {
+        question: "¿En qué categoría entra un entorno como Visual Studio o PyCharm?",
+        options: ["Upper CASE", "Lower CASE", "Cross-Life Cycle", "I-CASE"],
+        correctAnswer: 1
+    },
+    {
+        question: "¿A qué categoría pertenecen Selenium y JUnit?",
+        options: ["Pruebas y verificación (CAST)", "Documentación automática", "Gestión de proyectos", "Ingeniería inversa"],
+        correctAnswer: 0
     }
 ];
