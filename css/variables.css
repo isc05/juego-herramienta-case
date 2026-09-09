@@ -1,0 +1,28 @@
+/**
+ * Definición de la paleta de colores y variables globales del sistema.
+ * Favorece la escalabilidad y facilita la implementación de temas (e.g. Dark Mode).
+ */
+:root {
+    --color-primary: #a816e6;
+    --color-primary-hover: #e35361;
+    --color-secondary: #4cc9f0;
+    --color-background: #f8f9fa;
+    --color-surface: #ffffff;
+    --color-text-main: #2b2d42;
+    --color-text-muted: #8d99ae;
+    
+    --color-success: #4caf50;
+    --color-error: #ef233c;
+
+    --font-family-main: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    
+    --border-radius-sm: 0.5rem;
+    --border-radius-md: 1rem;
+    --border-radius-lg: 1.5rem;
+    
+    --shadow-sm: 0 4px 6px rgba(0,0,0,0.05);
+    --shadow-md: 0 10px 20px rgba(0,0,0,0.08);
+    
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+}
